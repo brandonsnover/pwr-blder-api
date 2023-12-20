@@ -1,7 +1,6 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+Exercise.create(name: "Squat", volume: "3 sets 5-8 reps", short_description: "Primary muscle targeted Quads", long_description: "more detail here", img_url: "img.com")
+Exercise.create(name: "Deadlift", volume: "3 sets 5-8 reps", short_description: "Primary muscle targeted Back", long_description: "more detail here", img_url: "img.com")
+Exercise.create(name: "Bench Press", volume: "3 sets 5-8 reps", short_description: "Primary muscle targeted Chest", long_description: "more detail here", img_url: "img.com")
+Exercise.create(name: "Militray Press", volume: "3 sets 5-8 reps", short_description: "Primary muscle targeted Shoulders", long_description: "more detail here", img_url: "img.com")
+Exercise.create(name: "Pull Ups", volume: "3 sets 5-8 reps", short_description: "Primary muscle targeted Back", long_description: "more detail here", img_url: "img.com")
+Exercise.create(name: "Romanian Deadlift", volume: "3 sets 5-8 reps", short_description: "Primary muscle targeted Hamstring", long_description: "more detail here", img_url: "img.com")
