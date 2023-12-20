@@ -19,4 +19,11 @@ Rails.application.routes.draw do
   post "/days" => "days#create"
   patch "/days/:id" => "days#update"
   delete "/days/:id" => "days#destroy"
+
+  # ExerciseDay Routes
+  get "/exercise_days" => "exercise_days#index"
+  get "/exercise_days/:id" => "exercise_days#show"
+  post "/exercise_days" => "exercise_days#create"
+  patch "/exercise_days/:id" => "exercise_days#update"
+  delete "/exercise_days/:id" => "exercise_days#destroy"
 end
