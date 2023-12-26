@@ -1,6 +1,6 @@
 class ExerciseDaysController < ApplicationController
   def index
-    @exercise_days = ExerciseDay.all
+    @exercise_days = ExerciseDay.where(day_id: params[:day_id])
     render :index
   end
 

@@ -29,6 +29,6 @@ class DaysController < ApplicationController
   def destroy
     @day = Day.find_by(id: params[:id])
     @day.destroy
-    render json: { message: "Day Deleted" }
+    render json: { message: "Day Deleted" } 
   end
 end

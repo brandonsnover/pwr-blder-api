@@ -26,4 +26,10 @@ Rails.application.routes.draw do
   post "/exercise_days" => "exercise_days#create"
   patch "/exercise_days/:id" => "exercise_days#update"
   delete "/exercise_days/:id" => "exercise_days#destroy"
+
+  # User Routes
+  post "/users" => "users#create"
+
+  # Sessions Route
+  post "/sessions" => "sessions#create"
 end

@@ -1,6 +1,6 @@
 class ProgramsController < ApplicationController
   def index
-    @programs = Program.all
+    @programs = Program.where(user_id: current_user.id)
     render :index
   end
 
@@ -12,6 +12,7 @@ class ProgramsController < ApplicationController
   def create
     @program = Program.create(
       name: params[:name],
+      user_id: current_user.id,
     )
     render :show
   end
