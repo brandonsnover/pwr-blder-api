@@ -1,6 +1,7 @@
   json.id exercise.id
   json.name exercise.name
   json.volume exercise.volume
+  json.tags exercise.tags
   json.short_description exercise.short_description
   json.long_description exercise.long_description
   json.img_url exercise.img_url
