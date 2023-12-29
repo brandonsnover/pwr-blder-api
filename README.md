@@ -19,7 +19,7 @@ This is the backend for pwr-blder-api, a Rails API that manages exercises, worko
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/your-project.git
+    git clone https://github.com/brandonsnover/pwr-blder-api.git
     cd pwr-blder-api
     ```
 
