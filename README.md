@@ -57,43 +57,43 @@ The API will be accessible at http://localhost:3000/.
 
 Exercises:
 
-GET /exercises: Get a list of all exercises.
-GET /exercises/:id: Get details of a specific exercise.
-POST /exercises: Create a new exercise.
-PUT /exercises/:id: Update an existing exercise.
-DELETE /exercises/:id: Delete an exercise.
+- GET /exercises: Get a list of all exercises.
+- GET /exercises/:id: Get details of a specific exercise.
+- POST /exercises: Create a new exercise.
+- PUT /exercises/:id: Update an existing exercise.
+- DELETE /exercises/:id: Delete an exercise.
 
 Days:
 
-GET /days: Get a list of all days.
-GET /days/:id: Get details of a specific day.
-POST /days: Create a new day.
-PUT /days/:id: Update an existing day.
-DELETE /days/:id: Delete a day.
+- GET /days: Get a list of all days.
+- GET /days/:id: Get details of a specific day.
+- POST /days: Create a new day.
+- PUT /days/:id: Update an existing day.
+- DELETE /days/:id: Delete a day.
 
 ExerciseDays:
 
-GET /exercise_days: Get a list of all days.
-GET /exercise_days/:id: Get details of a specific day.
-POST /exercise_days: Create a new day.
-PUT /exercise_days/:id: Update an existing day.
-DELETE /exercise_days/:id: Delete a day.
+- GET /exercise_days: Get a list of all days.
+- GET /exercise_days/:id: Get details of a specific day.
+- POST /exercise_days: Create a new day.
+- PUT /exercise_days/:id: Update an existing day.
+- DELETE /exercise_days/:id: Delete a day.
 
 Programs:
 
-GET /programs: Get a list of all programs. (requires authentication)
-GET /programs/:id: Get details of a specific program.
-POST /programs: Create a new program. (requires authentication)
-PUT /programs/:id: Update an existing program. (requires authentication)
-DELETE /programs/:id: Delete a program. (requires authentication)
+- GET /programs: Get a list of all programs. (requires authentication)
+- GET /programs/:id: Get details of a specific program.
+- POST /programs: Create a new program. (requires authentication)
+- PUT /programs/:id: Update an existing program. (requires authentication)
+- DELETE /programs/:id: Delete a program. (requires authentication)
 
 Users:
 
-POST /users/signup: Sign up as a new user.
+- POST /users/signup: Sign up as a new user.
 
 Sessions:
 
-POST /sessions/signup: Create JWT for authentication.
+- POST /sessions/signup: Create JWT for authentication.
 
 ## Authentication
 - This API uses JSON Web Tokens (JWT) for authentication. To access protected routes, include the JWT token in the Authorization header of your requests.
