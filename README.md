@@ -18,27 +18,35 @@ This is the backend for pwr-blder-api, a Rails API that manages exercises, worko
 
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/yourusername/your-project.git
-cd pwr-blder-api
+    ```bash
+    git clone https://github.com/yourusername/your-project.git
+    cd pwr-blder-api
+    ```
 
-2. **Install Dependancies:**
+2. **Install Dependencies:**
 
-bundle install
+    ```bash
+    bundle install
+    ```
 
 3. **Database Setup:**
 
-rails db:create
-rails db:migrate
+    ```bash
+    rails db:create
+    rails db:migrate
+    ```
 
 4. **Seed the Database:**
 
-rails db:seed
+    ```bash
+    rails db:seed
+    ```
 
 ## Usage
 
 **Start the Rails server:**
 
+```bash
 rails server
 
 The API will be accessible at http://localhost:3000/.
