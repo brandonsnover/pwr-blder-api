@@ -48,59 +48,8 @@ This is the backend for pwr-blder-api, a Rails API that manages exercises, worko
 
 ```bash
 rails server
+```
 
-The API will be accessible at http://localhost:3000/.
-
-
-Certainly! Here's the complete README in a single Markdown file:
-
-markdown
-Copy code
-# Your Project Name
-
-## Overview
-
-This is the backend for [Your Project Name], a Rails API that manages exercises, workout programs, and user authentication. The API is designed to handle exercises, days, programs, tags, and user-related functionalities.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Authentication](#authentication)
-- [Models](#models)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/your-project.git
-   cd your-project
-Install dependencies:
-
-bash
-Copy code
-bundle install
-Database Setup:
-
-bash
-Copy code
-rails db:create
-rails db:migrate
-Seed the database (optional):
-
-bash
-Copy code
-rails db:seed
-Usage
-Start the Rails server:
-
-bash
-Copy code
-rails server
 The API will be accessible at http://localhost:3000/.
 
 ## API Endpoints
