@@ -1,6 +1,6 @@
 class ExercisesController < ApplicationController
   def index
-    @exercises = Exercise.all
+    @exercises = Exercise.includes(:tags).all
     render :index
   end
 
